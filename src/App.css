@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap");
+* {
+  /* background-color: black; */
+  overflow: hidden;
+  margin: 0;
+  font-family: "Yeon Sung", cursive;
+}
+
+.App {
+  height: 100vh;
+  background-color: black;
+}
+.materialSelect {
+  z-index: 100000;
+  color: aliceblue;
+  position: absolute;
+  left: 10vh;
+  top: 10vh;
+  background: transparent !important;
+  text-transform: capitalize;
+  font-size: 50px;
+  height: 100vh;
+}
+
+.materials {
+  position: relative;
+  right: -33px;
+  height: 20vh;
+  width: 100vw;
+  bottom: -59vh;
+}
+
+.materials span{
+  margin: 0px 8vw;
+  position: inherit;
+  padding: 36px;
+  border-radius: 100%;
+  top: 38px;
+  border: 2px solid white;
+}
+.pink{
+  background-color: rgba(255, 105, 180, 0.597);
+}
+.red{
+  background-color: rgba(221, 69, 69, 0.597);
+}
+.blue{
+  background-color: rgba(46, 142, 187, 0.597);
+}

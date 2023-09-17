@@ -6,4 +6,10 @@ This project was developed based on @three, @react-three/fiber and Socket.io
 
 > npm i
 
-> npm start 
+> cd src/Components
+
+>node server.js 
+
+> npm start
+
+
